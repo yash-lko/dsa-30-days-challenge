@@ -3,10 +3,13 @@
 
 //Palindrome nums
 
+// TC- O(log10 n)
+// SC- O(1)
+
 let nums = 1331;
 function myFun(n) {
 
-    if (n <= 0) return false;
+    if (n < 0) return false;
 
     let original = n;
 
