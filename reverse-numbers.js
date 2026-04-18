@@ -1,18 +1,15 @@
 
 // Reverse a number
 // Time Complexity (TC): O(log10 n)
-
 // Space Complexity (SC): O(1)
 
 function myFun(nums) {
-
     let sign = nums < 0 ? -1 : 1;
-    //sign= 12<0? -1:
     nums = Math.abs(nums);
 
     let rev = 0;
 
-    while (nums !== 0) {
+    while (nums> 0) {
         let lastDigit = nums % 10;
         rev = rev * 10 + lastDigit;
 
