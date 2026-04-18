@@ -1,6 +1,7 @@
 
 
 // Armstrong number
+
 // TC= O(log n)
 // SC- O(1)
 function myFun(nums) {
@@ -16,7 +17,7 @@ function myFun(nums) {
         count++;
         temp1 = Math.floor(temp1 / 10);
     }
-    
+
     let temp2 = nums;
     while (temp2 > 0) {
         let digit = temp2 % 10;
