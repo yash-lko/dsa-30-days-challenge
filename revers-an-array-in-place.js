@@ -12,6 +12,8 @@ function myFun(nums){
   
   while(right>left){
     [nums[left], nums[right]]=[nums[right], nums[left]]
+
+    // nums
     left++
     right--
   }
